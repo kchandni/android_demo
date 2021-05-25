@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7DA"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FD8D09">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/number"
+            android:textSize="30sp"
+            android:paddingLeft="16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Number" />
+    </FrameLayout>
+
+<FrameLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#258107">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Family Members"
+        android:id="@+id/member"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:textSize="30sp"/>
+
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#59588C" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/color"
+        android:text="Colors"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"
+        android:textSize="30sp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#46BDE9" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:text="Phases"
+        android:paddingLeft="16dp"
+        android:id="@+id/phase"
+        android:textSize="30sp"
+        android:background="?android:attr/selectableItemBackground"/>
+    </FrameLayout>
+
+</LinearLayout>
